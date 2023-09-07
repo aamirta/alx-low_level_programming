@@ -2,7 +2,7 @@
 /**
  * main -Entry point
  *
- * Desctription: using sizeof
+ * Desctription: using sizeof print the size of various types.
  *
  * Return: Always 0 (seccess)
 */
