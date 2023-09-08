@@ -15,11 +15,10 @@ int main(void)
 	while (alpha <= '9')
 	{
 		putchar(alpha);
-		alpha++;
-		if (alpha == '9')
-			break;
+		if (alpha != '9')
 		putchar(',');
 		putchar(' ');
+		alpha++;
 	}
 	putchar('\n');
 	return (0);
