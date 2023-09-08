@@ -16,6 +16,8 @@ int main(void)
 	{
 		putchar(alpha);
 		alpha++;
+		if (alpha == '9')
+			break;
 		putchar(',');
 		putchar(' ');
 	}
