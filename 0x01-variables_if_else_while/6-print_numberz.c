@@ -10,12 +10,12 @@
 
 int main(void)
 {
-	int  alpha = '9';
+	int  alpha = '0';
 
-	while (alpha >= '0')
+	while (alpha <= '9')
 	{
 		putchar(alpha);
-		alpha--;
+		alpha++;
 	}
 	putchar('\n');
 	return (0);
