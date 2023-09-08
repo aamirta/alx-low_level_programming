@@ -12,7 +12,7 @@ int main(void)
 {
 	int  alpha = '9';
 
-	while (alpha <= '0')
+	while (alpha >= '0')
 	{
 		putchar(alpha);
 		alpha--;
