@@ -19,7 +19,7 @@ int main(void)
 		putchar(alpha);
 		alpha++;
 	}
-	while (ti <= f)
+	while (ti <= 'f')
 	{
 		putchar(ti);
 		ti++;
