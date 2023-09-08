@@ -11,7 +11,7 @@ int main(void)
 {
 	int degit1 = 0, degit2;
 
-	while (degit <= 9)
+	while (degit1 <= 9)
 	{
 		degit2 = 0;
 			while (degit2 <= 9)
