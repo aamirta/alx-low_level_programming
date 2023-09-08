@@ -2,12 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main -entry point
+ * main - entry point
  *
- * Description : positive or negative
+ * Description: positive or negative validation
  *
- * return: 0 (secess)
+ * Return: 0 (seccess)
  */
+
 int main(void)
 {
 	int n;
@@ -17,9 +18,9 @@ int main(void)
 	if (n > 0)
 		printf("%i is positive\n", n);
 		else if (n == 0)
-			printf ("%i is zer\n", n);
-			else 
-				printf("% is negative\n", n);
+			printf("%i is zero\n", n);
+			else
+				printf("%i is negative\n", n);
 
 	return (0);
 }
