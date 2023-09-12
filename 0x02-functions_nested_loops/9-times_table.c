@@ -19,6 +19,8 @@ void times_table(void)
 		{
 			_putchar(',');
 			_putchar(' ');
+			prod = num * nult;
+
 			/*
 			 * put space if product is asingle number
 			 * place the first digit if its number
